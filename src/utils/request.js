@@ -3,7 +3,7 @@ import { Message } from 'element-ui'
 import router from  '../router'
 import store from '../store'
 const service = axios.create({
-  baseURL: '',
+  baseURL: 'http://wxl.liumianti.top',
   withCredentials: true
 })
 service.interceptors.response.use(function(res){
