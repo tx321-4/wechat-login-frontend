@@ -12,7 +12,7 @@ const actions = {
 
 const mutations ={
   setUserInfo(state, userInfo){
-    state.userInfo = uerInfo;
+    state.userInfo = userInfo;
   },
   logOut(state){
     state.userInfo = null
